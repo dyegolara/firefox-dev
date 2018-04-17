@@ -1,0 +1,22 @@
+{
+    "name": "firefox-dev",
+    "displayName": "Firefox Dev",
+    "description": "Firefox Developer Edition based theme",
+    "version": "0.0.1",
+    "publisher": "dyegolara",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Firefox Dev",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Firefox Dev-color-theme.json"
+            }
+        ]
+    }
+}
